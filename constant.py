@@ -1,7 +1,6 @@
 K  = 100   # invariant constant
 Wx = 0.25  # weight of token X
 Wy = 0.75  # weight ot token Y
-V  = 200   # virtual liquidity
 
 Xe = K  * (Wx / Wy) ** Wy
 Ye = Xe *  Wy / Wx
